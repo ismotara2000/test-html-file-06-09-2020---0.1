@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="basic html page">
+  	<meta name="keywords" content="HTML">
+  	<meta name="author" content="MD. Inzamul Huq">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Page</title>
+	<style>
+		table, th, tr, td {
+			font-weight:  50px;
+			border: 1px solid red;
+			border-spacing: 0px; 
+		}
+	</style>
+</head>
+<body>
+	<header>HTML Basic Page</header>
+	<br/>
+	<hr/>
+	<div id="navbar">
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Contacts</a>
+		</nav>
+	</div>
+
+	<div class="main">
+		<h4>Typography</h4>
+		<p><ins>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos dolores quibusdam maxime rerum ipsum, nihil incidunt perferendis iste eligendi suscipit odit, atque necessitatibus mollitia, praesentium non quas totam repudiandae neque.</ins></p>
+		<img src="html.png" alt="#">
+		<p><mark><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita tenetur nemo consequuntur, <strong><u>illum nostrum facere</u></strong>, reiciendis eius tempora voluptatibus non. Porro harum, <span style="color:blue;font-weight:bold">blue</span>sit cum hic et dolorum laboriosam. Accusamus, numquam.</i></mark></p>
+		<p><del>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius minus nulla, aperiam illum? Nemo provident possimus dolorem corrupti sit, ipsum beatae praesentium nesciunt velit dolores hic, ex, quod reprehenderit voluptas.</del></p>
+		<p>(a+b)<sup>2</sup>=a<sup>2</sup>+2ab+b<sup>2</sup></p>
+		<a href="#"><p>HO<sub>2</sub></p></a>
+		<abbr title="hyper text markup language">html</abbr>
+	</div>
+
+	<!-- table -->
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Basic Salary</th>
+				<th>Bounas</th>
+				<th>Total</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Ramim</td>
+				<td rowspan="3">13000</td>
+				<td>60%</td>
+				<td>20800</td>
+			</tr>
+			<tr>
+				<td>Rakib</td>
+				<!-- <td>13000</td> -->
+				<td>55%</td>
+				<td>20150</td>
+			</tr>
+			<tr>
+				<td>Golap</td>
+				<!-- <td>13000</td> -->
+				<td>45%</td>
+				<td>18850</td>
+			</tr>
+			<tr>
+				<td>Jamal</td>
+				<td colspan="2">12000</td>
+				<td>12000</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3">Tolal</td>
+				<td>10000000</td>
+			</tr>
+		</tfoot>
+	</table>
+	<!-- table -->
+
+	<!-- list -->
+	<ol>
+		<li>one</li>
+		<li>two</li>
+		<li>three</li>
+	</ol>
+
+	<ul>
+		<li style="list-style-type:disc;">one</li>
+		<li style="list-style-type:disc;">two</li>
+		<li style="list-style-type:disc;">three</li>
+	</ul>
+	<ul>
+		<li style="list-style-type:circle;">one</li>
+		<li style="list-style-type:circle;">two</li>
+		<li style="list-style-type:circle;">three</li>
+	</ul>
+	<ul>
+		<li style="list-style-type:square;">one</li>
+		<li style="list-style-type:square;">two</li>
+		<li style="list-style-type:square;">three</li>
+	</ul>
+	<ul>
+		<li style="list-style-type:none;">one</li>
+		<li style="list-style-type:none;">two</li>
+		<li style="list-style-type:none;">three</li>
+	</ul>
+
+	<dl>
+		<li>one</li>
+		<li>two</li>
+		<li>three</li>
+	</dl>
+	<!-- list -->
+
+	<!-- iframe -->
+	<div class="iframe">
+		<h2>Iframe - Target for a Link</h2>
+
+<iframe height="300px" width="40%" src="demo_iframe.htm" name="iframe_a"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+<p>When the target of a link matches the name of an iframe, the link will open in the iframe.</p>
+	</div>
+	<!-- iframe -->
+
+	<!-- address -->
+	Written by <br/> <a href="mailto:webmaster@example.com">Md. Inzamul Huq</a>.<br/>
+	Visit us at:<br/>
+	Example.com<br/>
+	<p>&#9742; 548545554</p>
+	Box 40, Pabna<br/>
+	BD
+	<!-- address -->
+	
+</body>
+</html>
